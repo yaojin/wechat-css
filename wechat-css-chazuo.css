@@ -93,7 +93,7 @@ dl dd {
 blockquote, q {
   border-left: 2px solid #009688;
   padding: 0 10px;
-  color: #777;
+  color: #888888;
   quotes: none;
   margin-left: 1em;
 }
@@ -103,7 +103,7 @@ blockquote::before, blockquote::after, q::before, q::after {
 }
 
 h1{
-  margin: 20px 0 10px;
+  margin: 20px 0 0px;
   padding: 0;
   font-style: bold !important;
   color: #000000  !important;
@@ -112,7 +112,7 @@ h1{
   padding: 0.5em 1em !important;
 }
 h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
+  margin: 20px 0 0px;
   padding: 0;
   font-size: 15px !important;
   font-style: bold !important;
