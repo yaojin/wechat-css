@@ -229,3 +229,22 @@ h9 {
 }
 
 
+
+/* Name: 微信/支付宝 打赏功能
+* U乐购网ellegou.com（www.ellegou.com） */
+.reward{padding:5px 0}.reward .reward-notice{font-size:14px;line-height:14px;margin:15px auto;text-align:center}
+.reward .reward-button{font-size:28px;line-height:58px;position:relative;display:block;width:60px;height:60px;margin:0 auto;padding:0;-webkit-user-select:none;text-align:center;vertical-align:middle;color:#fff;border: 1px solid #E62129;border-radius:50%;background: #E62129;background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#E62129),color-stop(100%,#2989d8),color-stop(100%,#2989d8),color-stop(100%,#207cca));background: -webkit-linear-gradient(top,#E62129 0,#2989d8 100%,#2989d8 100%,#207cca 100%);background: linear-gradient(to bottom,#F0343C 0,#E62129 100%,#2989d8 100%,#207cca 100%);}
+.reward .reward-code{position:absolute;top: -250px;left:50%;display:none;width:350px;height: 170px;margin-left: -190px;padding:15px;border:1px solid #e6e6e6;background:#fff;box-shadow:0 1px 1px 1px #efefef;}
+/* 因为每个网站文章宽度不同，U乐购网ellegou.com所以建议需要根据自己网站的实际情况调整上行CSS代码的 top和margin-left的数值 来适应自己的网站 */
+.reward .reward-button:hover .reward-code{display:block}
+.reward .reward-code span{display:inline-block;width:150px;height:150px}
+.reward .reward-code span.alipay-code{float:left}
+.reward .reward-code span.alipay-code a{padding:0}
+.reward .reward-code span.wechat-code{float:right}
+.reward .reward-code img{display:inline-block;float:left;width:150px;height:150px;margin:0 auto;border:0}
+.reward .reward-code b{font-size:14px;line-height:26px;display:block;margin:0;text-align:center;color:#666}
+.reward .reward-code b.notice{line-height:2rem;margin-top:-1rem;color:#999}
+.reward .reward-code:after,.reward .reward-code:before{position:absolute;content:”;border:10px solid transparent}
+.reward .reward-code:after{bottom:-19px;left:50%;margin-left:-10px;border-top-color:#fff}
+.reward .reward-code:before{bottom:-20px;left:50%;margin-left:-10px;border-top-color:#e6e6e6}
+
