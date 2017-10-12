@@ -10,7 +10,7 @@
 
 pre, code {
   font-size: 14px;
-  font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+  font-family: 微软雅黑, Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
   margin: auto 5px;
 }
 
@@ -186,3 +186,18 @@ table tr th {
   background-color: #F44336;
 }
 
+pre code {
+  /*white-space: pre;
+  overflow: auto;*/
+  padding: 10px 5px;
+  margin-top: -0em;
+  border: 1px solid #f44336; 
+  border-top-left-radius: 0.4em; 
+  border-top-right-radius: 0.4em; 
+  border-bottom-right-radius: 0.4em; 
+  border-bottom-left-radius: 0.4em; 
+  font-size: 1em;
+  text-align: justify !important;
+  display: block !important;
+  /*background-color:#fff;*/
+}
