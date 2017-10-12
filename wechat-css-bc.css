@@ -142,15 +142,14 @@ h6 {
   text-align: center!important;  
 }
 
-
 table {
   padding: 0;
   border-collapse: collapse;
-  border-spacing: 0;
   font-size: 1em;
-  font: inherit;
-  border: 0;
+  border-style: hidden;
   margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 tbody {
@@ -160,22 +159,22 @@ tbody {
 }
 
 table tr {
-  border: 0;
-  border-top: 1px solid #CCC;
-  background-color: white;
+  border-top: 1px solid #ddd;
   margin: 0;
   padding: 0;
 }
 
+
 table tr:nth-child(2n) {
-  background-color: #F8f8f8;
+  background-color: #F8F8F8;
 }
 
 table tr th, table tr td {
   font-size: 16px;
-  border: 1px solid #F44336;
+  border: 1px solid #f44336;
   margin: 0;
   padding: 5px 10px;
+
 }
 
 table tr th {
@@ -183,6 +182,7 @@ table tr th {
   color: #ddd;
   border-collapse: collapse;
   border: 1px solid #F44336;
-  border-color: #F44336 #ddd #F44336 #F44336;
+  border-color: #ddd;
   background-color: #F44336;
 }
+
