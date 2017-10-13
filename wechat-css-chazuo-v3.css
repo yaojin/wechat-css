@@ -12,20 +12,22 @@
 
 pre, code {
   font-size: 14px;
-  font-family: 微软雅黑, Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+  line-height: 1.75em;
+  font-family: 微软雅黑, 'Courier New', Consolas, Inconsolata, Courier, monospace;
   margin: auto 5px;
 }
 
 code {
-  /*white-space: pre-wrap;*/
+  white-space: pre-wrap;
   border-radius: 2px;
   text-align: center!important;
 }
 
 pre {
   font-size: 15px;
+  white-space: pre-wrap;
   padding: 1px 1px;
-  line-height: 1.4em;
+  line-height: 1.75em;
   display: block!important;
   border:none;
   background-color:#ffffff;
@@ -45,7 +47,7 @@ strong, b{
 }
 
 em, i {
-  color: #ab1942;
+  color: #f44336;
   font-size: 15px;
   font-style: normal;
 }
@@ -227,8 +229,8 @@ h8 {
 }
 
 pre code {
-  /*white-space: pre;
-  overflow: auto;*/
+  white-space: pre
+  overflow: auto;
   padding: 10px 5px;
   margin-top: -0em;
   border: 1px solid #f44336; 
