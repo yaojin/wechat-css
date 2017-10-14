@@ -10,6 +10,7 @@
 
 pre, code {
   font-size: 14px;
+  color: #888888;
   font-family: 微软雅黑, Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
   margin: auto 5px;
 }
@@ -27,7 +28,7 @@ pre {
 }
 
 pre code {
-  white-space: pre;
+  white-space: pre-wrap;
   overflow: auto;
   border-radius: 3px;
   padding: 1px 1px;
@@ -186,7 +187,7 @@ table tr th {
   background-color: #F44336;
 }
 
-pre code {
+/*pre code {
   /*white-space: pre;
   overflow: auto;*/
   padding: 10px 5px;
@@ -200,4 +201,4 @@ pre code {
   text-align: justify !important;
   display: block !important;
   /*background-color:#fff;*/
-}
+}*/
