@@ -1,4 +1,4 @@
-/* update the style for tittle and color to blue*/
+/* update the style for H1*/
 
 .markdown-here-wrapper {
   font-size: 15px;
@@ -18,7 +18,7 @@ pre, code {
 }
 
 code {
-  white-space: pre-wrap;
+  white-space: normal;
   border-radius: 2px;
   text-align: center!important;
 }
@@ -102,11 +102,12 @@ dl dd {
 }
 
 blockquote, q {
-  border-left: 2px solid #ddd;
+  /*border-left: 2px solid #ddd;*/
   padding: 0 10px;
   color: #888888;
   quotes: none;
   margin-left: 0.3em;
+  background-color: rgb(247, 247, 247);
 }
 
 blockquote::before, blockquote::after, q::before, q::after {
