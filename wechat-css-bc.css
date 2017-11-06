@@ -76,7 +76,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 dl {
