@@ -11,7 +11,7 @@
 
 
 pre, code {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75em;
   font-family: 微软雅黑, 'Courier New', Consolas, Inconsolata, Courier, monospace;
   margin: auto 5px;
@@ -19,12 +19,14 @@ pre, code {
 
 code {
   white-space: normal;
+  color: #888888;
   border-radius: 2px;
   text-align: center!important;
 }
 
 pre {
-  font-size: 15px;
+  font-size: 14px;
+  color: #888888;
   white-space: pre-wrap;
   padding: 1px 1px;
   line-height: 1.75em;
@@ -83,7 +85,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 dl {
@@ -102,7 +104,7 @@ dl dd {
 }
 
 blockquote, q {
-  /*border-left: 2px solid #ddd;*/
+  border-left: 0px solid #ddd;
   padding: 0 10px;
   color: #888888;
   quotes: none;
@@ -116,7 +118,7 @@ blockquote::before, blockquote::after, q::before, q::after {
 
 h1{
   display: table; /* keep the background color wrapped tight */
-  margin: 0px auto 0px auto; /* keep the table centered */
+  margin: 10px auto 0px auto; /* keep the table centered */
 
   font-style: bold !important;
   color: rgb(0,127,185) !important; /* #000000 */
@@ -139,7 +141,7 @@ h3 {
 
 h1 {
   font-size: 18px !important;
-  line-height: 25.6px;
+  line-height: 18px;
   /*border-bottom: 1px solid #ddd !important;*/
 }
 
@@ -158,8 +160,18 @@ h4 {
 
 h5 {
   font-size: 14px !important;
-  font-style: bold !important;
+  /*font-style: bold !important;*/
   color: #888888!important;
+  line-height: 1.75em;
+  text-align:center!important;
+
+}
+
+h6 {
+  margin: 20px 0 10px;
+  font-size: 18px !important;
+  /*font-style: bold !important;*/
+  color: #f44336!important;
   line-height: 1.75em;
   text-align:center!important;
 
@@ -209,7 +221,7 @@ table tr th {
   background-color: #F44336;
 }
 
-h6 {
+h66 {
     display: table; /* keep the background color wrapped tight */
     margin: 0px auto 10px auto; /* keep the table centered */
 
@@ -252,5 +264,5 @@ pre code {
   color: #888888;
   text-align: justify !important;
   display: block !important;
-  /*background-color:#fff;*/
+  background-color:#ffffff;
 }
